@@ -34,10 +34,10 @@
         </div>
 
         <ul class="nav-list">
-          <li><a href=""> Home </a></li>
-          <li><a href=""> Projetos </a></li>
-          <li><a href=""> Habilidade </a></li>
-          <li><a href=""> Contato </a></li>
+          <li><a href="#sobre"> Sobre mim </a></li>
+          <li><a href="#skillseformação"> Skills e Formação </a></li>
+          <li><a href="#projetos"> Projetos </a></li>
+          <li><a href="#contatos"> Contato </a></li>
         </ul>
       </nav>
     </header>
@@ -50,15 +50,15 @@
               <h1>Olá, Seja Bem Vindo !</h1>
 
               <span class="aps">
-                Meu nome é Gabriel <br />
-                e sou desenvolvedor <br />
-                Front-end
+                Meu nome é Gabriel, <br />
+                e sou jovem apaixonado <br />
+                por tecnologia
               </span>
 
               <div class="btn-apresentacao">
                 <button type="button">
                   <a
-                    href="imagens/GABRIEL ANDRADE DE OLIVEIRA-.pdf"
+                    href="imagens/CV - Gabriel.Oliveira.pdf"
                     type="application/pdf"
                   >
                     Meu cv aqui
@@ -73,7 +73,7 @@
         </div>
       </section>
 
-      <section>
+      <section id="sobre">
         <div class="vector-sobre">
           <div class="principal-sobre">
             <div class="titulo-sobre">
@@ -82,7 +82,7 @@
             <div class="card-sobre">
               <div class="texto-sobre">
                 <p>
-                  Olá, Atualmente tenho 18 anos, e desde pequeno tenho uma
+                  Olá, Atualmente tenho 20 anos, e desde pequeno tenho uma
                   grande paixão pela área de tecnologia. A partir daí sempre fui
                   buscando mais conhecimento e aprofundamento sobre o assunto.
                   Até que no ano de 2021, conheci o mundo da programação, que me
@@ -95,10 +95,11 @@
             <div class="imagem-sobre">
               <img src="imagens/Web_SVG-1.png" alt="" />
             </div>
+            <div id="skillseformação"></div>
           </div>
         </div>
+        <div id="projetos"></div>
       </section>
-
       <section>
         <div class="card">
           <div class="card-skills">
@@ -115,12 +116,66 @@
               <div class="icons">
                 <img src="imagens/logos_javascript.png" alt="" />
               </div>
-              <div class="icons">
-                <img src="imagens/logos_bootstrap.png" alt="" />
-              </div>
             </div>
           </div>
         </div>
+      </section>
+      <Section>
+        <div class="container2">
+          <div class="card-sobre2">
+            <div class="titulo-formação">
+              <h1>Formação acadêmica</h1>
+            </div>
+            <div>
+                <p class="texto-formação">Análise e Desenvolvimento de Sistema | Uninter – Set/2023 até Fev/2025</p>
+              </li>
+            </div>
+          </div>
+        </div>
+      </Section>
+      <section>
+        <div class="container3" >
+          <div class="card-sobre3">
+            <div class="titulo-formação">
+              <h1> Projetos</h1>
+            </div>
+            <div class="conteudo-projeto">
+                  <!-- Quadrado 1 - Link para o Projeto 1 -->
+                <a href="https://gabriel-andradeweb.github.io/Tech-flix/" class="projeto">Tech felix</a>
+
+                <!-- Quadrado 2 - Link para o Projeto 2 -->
+                <a href="https://gabriel-andradeweb.github.io/Curso-Flex-box/" class="projeto">FlexTurismos</a>
+
+                <!-- Quadrado 3 - Link para o Projeto 3 -->
+                <a href="https://gabriel-andradeweb.github.io/Projeto-final-SENAI-2021/" class="projeto">Estetica e Beleza</a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="contatos">
+        <div class="container4">
+          <div class="card-sobre4">
+            <div class="titulo-formação">
+              <h1> Entre em contato</h1>
+            </div>
+            <div class="conteudo-contato">
+              <form action="#" method="post">
+                <div class="form-group">
+                    <label for="nome">Nome:</label>
+                    <input type="text" id="nome" name="nome" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="mensagem">Mensagem:</label>
+                    <textarea id="mensagem" name="mensagem" rows="4" required></textarea>
+                </div>
+                <input type="submit" value="Enviar">
+            </form>
+            </div>
+          </div>
       </section>
     </main>
 
